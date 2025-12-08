@@ -40,45 +40,40 @@ CSV files for dataset storage
 No BI tools, Python, or Excel — 100% SQL analysis.
 
 Project Workflow
-1️⃣ Create tables & load data
+
+1️) Create tables & load data
 
 You created 3 tables:
 
 salesfunnel_customers
-
 salesfunnel_products
-
 salesfunnel_events
 
 Then imported CSVs into MSSQL.
 
-2️⃣ Compute funnel conversion metrics
+2️) Compute funnel conversion metrics
 
 Using CTEs + GROUP BY + JOINs, you calculated:
 
 Unique users per stage
-
 View → Cart
-
 Cart → Checkout
-
 Checkout → Payment
-
 Payment → Order
 
 View → Order (overall conversion)
 
-3️⃣ Insights by City
+3️) Insights by City
 
 You analyzed funnel behavior across 6 major cities to identify strong and weak markets.
 
-4️⃣ Insights by Product Category
+4️) Insights by Product Category
 
 Which category attracts traffic?
 Which converts to orders?
 Where do users drop off?
 
-5️⃣ Insights by Individual Product
+5️) Insights by Individual Product
 
 Identify:
 
